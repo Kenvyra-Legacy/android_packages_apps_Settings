@@ -21,10 +21,10 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- Arrow logo -->
+    <!-- Kenvyra logo -->
     <com.android.settingslib.widget.LayoutPreference
-        android:key="arrow_logo"
-        android:layout="@layout/arrow_logo"
+        android:key="kenvyra_logo"
+        android:layout="@layout/kenvyra_logo"
         android:selectable="false"/>
 
     <!-- Android version
@@ -36,10 +36,10 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>-->
 
-    <!-- Arrow version -->
+    <!-- Kenvyra version -->
     <Preference
-        android:key="arrow_version"
-        android:title="@string/arrow_version"
+        android:key="kenvyra_version"
+        android:title="@string/kenvyra_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:searchable="false"
