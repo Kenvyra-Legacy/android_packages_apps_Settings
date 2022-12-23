@@ -43,7 +43,7 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:searchable="false"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.ArrowVersionDetailPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.KenvyraVersionDetailPreferenceController"/>
 
     <!-- Device name -->
     <Preference
